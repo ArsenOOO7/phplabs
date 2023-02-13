@@ -28,7 +28,7 @@ echo "<br><div> Перевірка числа(додатнє, від'ємне а
 <input type='submit' value='Перевірити'>
 </form>
 </div>
-<h3 class='back'><a href='../task1.php' >Назад</a></h3>";
+<h3 class='back'><a href='../task2.php' >Назад</a></h3>";
 ?>
 </body>
 </html>
