@@ -21,6 +21,6 @@ echo "<div>
 <input type='text' name='formvariableGet'>
 <input type='submit' value='Додати число до файлу example1_1_5_2.php'></form></div>"
 ?>
-<h3 class='back'><a href='lab1.php' >Назад</a></h3>
+<h3 class='back'><a href='task1.php' >Назад</a></h3>
 </body>
 </html>

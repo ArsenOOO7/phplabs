@@ -2,7 +2,7 @@
 require("../config.php");
 //include_once("../db.php");
 // include_once("../function.php");
-header("Content-Type: text/html; charset=".$config{'charset'});
+header("Content-Type: text/html; charset=".$config['charset']);
 ?>
 <html>
 <head>
@@ -39,7 +39,7 @@ echo "<div>
 <input type='text' name='choice'><br>
 <input type='submit' value='Показати'>
 </form></div>
-<h3 class='back'><a href='lab1.php'>Назад</a></h3>";
+<h3 class='back'><a href='task1.php'>Назад</a></h3>";
 ?>
 
 </body>

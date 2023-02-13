@@ -1,4 +1,5 @@
 <?php
+require "config.php";
 
 $lab_number = $_GET["lab"];
 $folder = "lab" . $lab_number . "_sydoryk";
@@ -17,11 +18,8 @@ $tasks = $data[$lab_number];
 <ul>
     <?php foreach($tasks as $task): ?>
 
-        <?php $link = $folder . "/task" . $task . ".php"; ?>
+        <?php $link = $folder . "/" . $task . ".php"; ?>
         <li><a href="<?php echo $link; ?>"><h2>Завдання <?php echo $task; ?></h2></a></li>
 
     <?php endforeach; ?>
 </ul>
-
-<?php
-include "config.php";
