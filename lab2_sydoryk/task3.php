@@ -10,6 +10,8 @@ if(!empty($_POST)){
         die("ONLY NUMBERS!!");
     }
 
+    echo "<p>X: {$x}, Y: ${y} </p>";
+
     $result = 0;
     if($y > 3 and $x > 0){
         $result = 2 * sqrt($x) * $y;
