@@ -6,7 +6,7 @@ if(!empty($_POST)){
     list($x, $y) = array_values($_POST);
 
 
-    if(!is_numeric($x) || !is_numeric($y)){
+    if(!is_int($x) || !is_int($y)){
         die("ONLY NUMBERS!!");
     }
 
