@@ -1,12 +1,20 @@
 <?php
 
 require "../config.php";
+
+
+function checkIfInt($value){
+    $double_val = (double) $value;
+    $double_int = (int) $value;
+    return abs($double_val - $double_int) == 0;
+}
+
 if(!empty($_POST)){
 
     list($x, $y) = array_values($_POST);
 
 
-    if(!is_int($x) || !is_int($y)){
+    if(!checkIfInt($x) || !checkIfInt($y)){
         die("ONLY NUMBERS!!");
     }
 
