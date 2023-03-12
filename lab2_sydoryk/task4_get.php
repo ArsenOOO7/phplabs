@@ -17,6 +17,7 @@ if(!empty($_GET)){
     }
 
     echo "<p><img src='{$images[$array_key][1]}' width='100px' height='auto'> </p>";
+    echo "<p>You selected {$array_key}</p>";
     if(strpos( $image, mb_strtolower($to_select)) !== false){
         echo "<p> This is correct image! </p>";
     }else{

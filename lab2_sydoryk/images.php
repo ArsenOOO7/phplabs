@@ -8,7 +8,7 @@ $images = [
     "Lemon" => ["task4_get.php?image=lemon", "images/4.jpg"],
     "Lime" => ["task4_get.php?image=lime", "images/5.jpg"],
     "Avocado" => ["task4_get.php?image=avocado", "images/6.jpg"],
-    "Raspberry" => ["task4_get.php?image=raspberry", "images/1.jpg"]
+    "Raspberry" => ["task4_get.php?image=raspberry", "images/2.jpg"]
 
 ];
 
@@ -23,6 +23,7 @@ function getRandomImages(){
     shuffle($image_copy);
     $keys = array_rand($image_copy, 4);
 
+//    var_dump($keys);
     $random_images = [];
     $array_key_list = array_keys($images);
 
