@@ -1,0 +1,12 @@
+h1
+First-level header
+h2
+Second-level header
+br
+Breaks line
+table
+Creates table
+p
+New paragraph
+form
+Creates form
