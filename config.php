@@ -8,6 +8,7 @@ if(strpos($host, "localhost") !== false){
 }
 
 define("PATH", $host);
+define("ALLOW_IPS", ["194.44.152.134", "62.122.202.125"]);
 
 $config = [];
 $config['charset'] = 'utf-8';
