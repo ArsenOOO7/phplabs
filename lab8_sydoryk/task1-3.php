@@ -1,7 +1,7 @@
 <?php
 require "db.php";
 
-$database->query("create table if not exists dusc(id integer primary key auto_increment, name_d varchar(100) unique, key_concept varchar(250))");
+$database->query("create table if not exists dusc(id integer primary key auto_increment, name_d varchar(100) unique, key_concept varchar(250)) CHARACTER SET utf8mb4");
 $database->query( "insert into dusc (name_d, key_concept) values ('Networks', 'HTTPS')");
 $database->query("insert into dusc (name_d, key_concept) values ('AI','Modeling')");
 

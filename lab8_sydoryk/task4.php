@@ -3,7 +3,7 @@ require "db.php";
 mysqli_query($database, "create table if not exists users(
     id integer primary key not null auto_increment,
     login varchar(56) not null,
-    password varchar(56) not null)");
+    password varchar(56) not null) CHARACTER SET utf8mb4");
 
 ?>
 <form action="register_user.php" method="post">

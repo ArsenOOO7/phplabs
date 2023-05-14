@@ -8,7 +8,7 @@ $database->query("
         file varchar(256) not null,
         amount integer default 0 not null,
         price integer default 0 not null
-    )
+    ) CHARACTER SET utf8mb4
 ");
 
 $data = $database->query("select * from storage");
