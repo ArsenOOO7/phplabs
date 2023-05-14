@@ -14,4 +14,6 @@ if($database->connect_errno){
     die("Cannot connect to database!");
 }
 
+$database->query("SET NAMES utf8");
+
 echo "<p> Established connection with database! </p>";
