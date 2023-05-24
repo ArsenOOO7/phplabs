@@ -18,4 +18,5 @@ $labs = array_keys(json_decode(file_get_contents("./data/labs.json"), true));
     echo "<li><a href='{$link}'><h3>Лабораторна робота {$n} </h3></a></li>";
 
 endforeach; ?>
+<li><a href="<?php echo PATH."/sydoryk_kr/index.php"; ?>"><h3>Контрольна робота</h3></a></li>
 </ul>
